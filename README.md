@@ -28,21 +28,6 @@
 - **Web Parser** — сбор данных с медицинских сайтов
 - **Docker Compose** — контейнеризация и оркестрация сервисов
 
-## 📁 Структура проекта
-\`\`\`
-medbook-platform/
-├── backend/           # FastAPI приложение
-│   ├── app/          # Основное приложение
-│   ├── alembic/      # Миграции базы данных
-│   ├── parser/       # Парсер медицинских сайтов
-│   └── requirements.txt
-├── frontend/         # React приложение
-├── telegram-bot/     # Telegram бот для уведомлений
-├── docker-compose.yml # Конфигурация Docker
-├── .gitignore        # Игнорируемые файлы
-└── README.md         # Документация
-\`\`\`
-
 ## 🚀 Быстрый старт
 ### **Требования:**
 - Python 3.11+
